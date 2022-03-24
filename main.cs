@@ -9,8 +9,9 @@ class Program
 {
     public static void Main(string[] args)
     {
-        // This function states the area of a rectangle
+        // This function states the area and perimeter of a rectangle
         int length, width, area, perimeter;
+            Console.WriteLine("This program calculates the area and perimeter of a rectangle.");
             Console.Write("Enter the length (mm): ");
             length = Convert.ToInt32(Console.ReadLine());
             Console.Write("Enter the width (mm): ");
