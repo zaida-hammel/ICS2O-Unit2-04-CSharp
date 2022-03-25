@@ -15,9 +15,9 @@ class Program
 
         Console.WriteLine("This program calculates the area of a triangle.");
         Console.WriteLine("");
-        Console.Write("Enter the base of the triangle (cm): ");
+        Console.Write("Enter the base (cm): ");
         Base = Convert.ToInt32(Console.ReadLine());
-        Console.Write("Enter the height of the triangle (cm): ");
+        Console.Write("Enter the height (cm): ");
         Height = Convert.ToInt32(Console.ReadLine());
 
         Double Area = (Base * Height) / 2;
