@@ -11,7 +11,7 @@ class Program
     {
         // This function states the area and perimeter of a rectangle
         int length, width, area, perimeter;
-        
+
             Console.WriteLine("This program calculates the area and perimeter of a rectangle.");
             Console.Write("Enter the length (mm): ");
             length = Convert.ToInt32(Console.ReadLine());
@@ -20,7 +20,7 @@ class Program
             area = length * width;
             perimeter = 2 * (length + width);
 
-        
+
             Console.WriteLine("The area is: " + area + "mm².");
             Console.WriteLine("The perimeter is: " + perimeter + "mm.");
             Console.ReadKey();
