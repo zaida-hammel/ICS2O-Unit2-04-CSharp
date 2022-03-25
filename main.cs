@@ -1,7 +1,7 @@
 // Created by: Zaida Hammel
 // Created on: March 2022
 //
-// This program accepts user input
+// This program accepts user input.
 
 using System;
 
