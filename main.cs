@@ -16,6 +16,7 @@ class Program
             Console.Write("Enter the length (mm): ");
             length = Convert.ToInt32(Console.ReadLine());
             Console.Write("Enter the width (mm): ");
+
             width = Convert.ToInt32(Console.ReadLine());
             area = length * width;
             perimeter = 2 * (length + width);
